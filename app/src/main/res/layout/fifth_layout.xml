@@ -1,0 +1,82 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.fivewaystomakemoney.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00b0ff"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/roundedbutton2"
+            android:onClick="getBack"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="5."
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button6"
+            android:layout_centerHorizontal="true"
+            android:text="Free to Download"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:text="People have become used to free"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView4"
+            android:text="apps, and even $0.99 can be a hard sell on the app store. However, many apps charge $5.99 or more. These are often productivity apps for businesses with very rich features, but among the best selling apps is a game that charges $6.99 per download: Minecraft by Mojang (recently bought by Microsoft). To charge for a download, you’ll need to convince buyers of your app’s value.
+
+The Up Side
+
+    People perceive it as a high-quality app from the beginning.
+    The absence of advertising makes it easier to design the perfect interface.
+    You can earn and post real revenue with every download. App developers and app marketers earn revenue upfront with every new download.
+
+The Down Side
+
+    Competition is still fierce for space in the app store. Free and freemium apps are winning.
+    Whichever app marketplace you use will want a percentage of your sales.
+    It’s more difficult to build up a big user base quickly.
+"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp" />
+
+    </RelativeLayout>
+</ScrollView>
