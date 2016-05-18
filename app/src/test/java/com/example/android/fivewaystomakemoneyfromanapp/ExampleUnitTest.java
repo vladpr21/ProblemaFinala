@@ -1,4 +1,4 @@
-package com.example.android.fivewaystomakemoney;
+package com.example.android.fivewaystomakemoneyfromanapp;
 
 import org.junit.Test;
 

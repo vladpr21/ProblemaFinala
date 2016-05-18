@@ -1,0 +1,66 @@
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+tools:context="com.example.android.fivewaystomakemoney.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00b0ff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background = "@drawable/roundedbutton2"
+        android:onClick="getBack"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="1."
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:text="Free Download Ad-Supported"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView"
+        android:text="             Virtually all social media sites use this model. Facebook and Twitter have been the biggest winners, with millions (even billions) of users around the world. Pinterest and many others have followed, with varying degrees of success. You’ll need to grow your user base very quickly, or you won’t attract enough advertising dollars to support the service.\n\n
+        The Up Side\n\n
+             Free app. Everybody loves that, and you get the user’s goodwill from the very start.\n
+             People are eager to share and get their friends in on a free service that they enjoy using.\n
+             Understanding your users through use data or ad clicks on mobile is another very valuable line of business.\n\n
+        The Down Side\n\n
+             People often demonstrate a lower investment in free apps. Your customer base may experience a great deal of turnover.\n
+             Users tend to get annoyed when ads are too intrusive or prevent them from performing functions within the app."
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+</RelativeLayout>
+</ScrollView>
