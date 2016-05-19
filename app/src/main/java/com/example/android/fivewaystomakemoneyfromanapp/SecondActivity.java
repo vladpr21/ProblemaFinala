@@ -15,13 +15,35 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_layout);
     }
-    public void getBack(View View)
+    public void getHome(View View)
+    {
+        String button_text;
+        button_text = ((Button) View).getText().toString();
+        if (button_text.equals("Home"))
+        {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
+
+    }
+    public void goNext(View View)
+    {
+        String button_text;
+        button_text = ((Button) View).getText().toString();
+        if (button_text.equals("Next"))
+        {
+            Intent intent = new Intent(this, ThirdActivity.class);
+            startActivity(intent);
+        }
+
+    }
+    public void goBack(View View)
     {
         String button_text;
         button_text = ((Button) View).getText().toString();
         if (button_text.equals("Back"))
         {
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, FirstActivity.class);
             startActivity(intent);
         }
 

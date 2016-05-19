@@ -20,6 +20,7 @@
         <activity android:name=".FirstActivity"/>
         <activity android:name=".FourthActivity"/>
         <activity android:name=".FifthActivity"/>
+        <activity android:name=".SurpriseActivity"/>
     </application>
 
 </manifest>

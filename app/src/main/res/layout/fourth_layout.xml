@@ -18,10 +18,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background = "@drawable/roundedbutton2"
-            android:onClick="getBack"
+            android:onClick="goBack"
             android:text="Back"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/roundedbutton2"
+            android:onClick="goNext"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"/>
 
         <TextView
             android:id="@+id/textView2"
@@ -37,7 +48,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button6"
+            android:layout_below="@+id/textView2"
             android:layout_centerHorizontal="true"
             android:text="In-App Purchases"
             android:textColor="#FFFFFF"
@@ -58,9 +69,20 @@
              This works well with affiliate programs and partnerships that bring in referral revenue.\n\n
         The Down Side\n\n
              There have been calls for more warnings for parents when games have in-app purchases, which can reduce the number of downloads.\n
-             Government regulations are being considered to limit consumer liability."
+             Government regulations are being considered to limit consumer liability.\n"
             android:textColor="#FFFFFF"
             android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/roundedbutton2"
+            android:onClick="getHome"
+            android:layout_below="@+id/textView3"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
     </RelativeLayout>
 </ScrollView>

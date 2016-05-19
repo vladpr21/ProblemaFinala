@@ -18,10 +18,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background = "@drawable/roundedbutton2"
-            android:onClick="getBack"
+            android:onClick="goBack"
             android:text="Back"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/roundedbutton2"
+            android:onClick="goNext"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"/>
 
         <TextView
             android:id="@+id/textView2"
@@ -58,9 +69,20 @@
              Recurring payments that auto-renew are the most reliable way to monetize mobile apps.\n\n
         The Down Side\n\n
              Deciding what to make free and what to put behind the paywall can be an ongoing problem.\n
-             Only media companies with news, entertainment and lifestyle content have been successful with this model overall."
+             Only media companies with news, entertainment and lifestyle content have been successful with this model overall.\n"
             android:textColor="#FFFFFF"
             android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background = "@drawable/roundedbutton2"
+            android:onClick="getHome"
+            android:layout_below="@+id/textView3"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
     </RelativeLayout>
 </ScrollView>

@@ -7,13 +7,13 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by fast on 5/16/2016.
+ * Created by fast on 5/19/2016.
  */
-public class FourthActivity extends Activity {
+public class SurpriseActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fourth_layout);
+        setContentView(R.layout.surprise_layout);
     }
     public void getHome(View View)
     {
@@ -26,24 +26,13 @@ public class FourthActivity extends Activity {
         }
 
     }
-    public void goNext(View View)
-    {
-        String button_text;
-        button_text = ((Button) View).getText().toString();
-        if (button_text.equals("Next"))
-        {
-            Intent intent = new Intent(this, FifthActivity.class);
-            startActivity(intent);
-        }
-
-    }
     public void goBack(View View)
     {
         String button_text;
         button_text = ((Button) View).getText().toString();
         if (button_text.equals("Back"))
         {
-            Intent intent = new Intent(this, ThirdActivity.class);
+            Intent intent = new Intent(this, FifthActivity.class);
             startActivity(intent);
         }
 

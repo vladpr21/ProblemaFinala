@@ -14,14 +14,15 @@ tools:context="com.example.android.fivewaystomakemoney.MainActivity">
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background = "@drawable/roundedbutton2"
-        android:onClick="getBack"
-        android:text="Back"
+        android:onClick="goNext"
+        android:text="Next"
         android:textColor="#FFFFFF"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -37,7 +38,7 @@ tools:context="com.example.android.fivewaystomakemoney.MainActivity">
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button6"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
         android:text="Free Download Ad-Supported"
         android:textColor="#FFFFFF"
@@ -58,9 +59,20 @@ tools:context="com.example.android.fivewaystomakemoney.MainActivity">
              Understanding your users through use data or ad clicks on mobile is another very valuable line of business.\n\n
         The Down Side\n\n
              People often demonstrate a lower investment in free apps. Your customer base may experience a great deal of turnover.\n
-             Users tend to get annoyed when ads are too intrusive or prevent them from performing functions within the app."
+             Users tend to get annoyed when ads are too intrusive or prevent them from performing functions within the app.\n"
         android:textColor="#FFFFFF"
         android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background = "@drawable/roundedbutton2"
+        android:onClick="getHome"
+        android:layout_below="@+id/textView3"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
 
 </RelativeLayout>
 </ScrollView>
